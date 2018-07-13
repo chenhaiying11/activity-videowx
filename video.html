@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+<title>播放</title>
+<link rel="stylesheet" type="text/css" href="group/css/reset.css"/>
+<link rel="stylesheet" href="group/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="group/css/willesPlay.css"/>
+<script type="text/javascript" src="group/js/remSystemMi.js"></script>
+<script type="text/javascript" src="group/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="group/js/willesPlay.js"></script>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div id="willesPlay">
+				<div class="playHeader">
+					<div class="videotitle">精彩片段</div>
+				</div>
+				<div class="playContent">
+					<video width="100%" height="100%" id="playVideo" src="http://123.57.19.47:8123/v1/hololens/storage/get/9pUveKJqppcyWt6xqGu65FWGq22RQuBkaeQaU2UHlLAlVyyf9qSFR1TgBlWv5qaW/MovieCapture_2018_0531_215242.mp4"></video>
+				</div>
+				<div class="playControll">
+					<div class="playPause"></div>
+					<div class="timebar">
+						<span class="currentTime">0:00:00</span>
+						<div class="progress">
+							<div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
+							</div>
+						<span class="duration">0:00:00</span>
+					</div>
+					<span class="fullScreen"></span>					
+				</div>
+			</div>
+			<div class="down">
+				<a class="downText">用电脑浏览器打开此页面还可下载原视频哦~</a>
+				<a class="downUrl" download="www.mp4" id="downUrl" >直接点击这里可进行下载</a>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+<script type="text/javascript" src="group/js/video.js"></script>
+</html>
+
